@@ -103,3 +103,45 @@
 [data-theme='dark'] .injective-logo--auto-invert {
   filter: invert(1);
 }
+
+/* ==========================================================================
+   Code Syntax Highlighting - Comment Styling (Abu-abu)
+   ========================================================================== */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a737d !important; /* Abu-abu pada Light Mode */
+  font-style: italic;
+}
+
+[data-theme='dark'] .token.comment,
+[data-theme='dark'] .token.prolog,
+[data-theme='dark'] .token.doctype,
+[data-theme='dark'] .token.cdata {
+  color: #8b949e !important; /* Abu-abu pada Dark Mode */
+  font-style: italic;
+}
+
+/* ==========================================================================
+   Link Styling - Underline untuk Memperjelas Tautan di Dokumentasi
+   ========================================================================== */
+.markdown a:not(.hash-link) {
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  transition: opacity 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.markdown a:not(.hash-link):hover {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px;
+  opacity: 0.85;
+}
+
+/* Hindari garis bawah pada elemen gambar yang dibungkus tautan */
+.markdown a:has(img) {
+  text-decoration: none !important;
+}
+
+

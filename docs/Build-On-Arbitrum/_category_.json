@@ -1,0 +1,8 @@
+{
+  "label": "Build On Arbitrum",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Panduan langkah-demi-langkah membangun aplikasi terdesentralisasi (dApp) di Arbitrum menggunakan Solidity, Remix IDE, Foundry Anvil, dan testnet Arbitrum Sepolia."
+  }
+}
