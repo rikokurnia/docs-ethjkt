@@ -144,4 +144,32 @@
   text-decoration: none !important;
 }
 
+/* ==========================================================================
+   Mermaid Diagrams Styling: Centering & Card Alignment
+   ========================================================================== */
+.docusaurus-mermaid-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin: 1.5rem auto !important;
+  width: 100% !important;
+  overflow-x: auto !important;
+}
+
+.docusaurus-mermaid-container > svg {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+  height: auto !important;
+}
+
+/* Khusus diagram alur matriks testing agar berukuran sedang (medium) dan proporsional */
+.mermaid-test-matrix .docusaurus-mermaid-container > svg,
+.mermaid-test-matrix svg {
+  max-width: 440px !important;
+  width: 100% !important;
+}
+
+
 

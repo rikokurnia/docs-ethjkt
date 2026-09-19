@@ -1,8 +1,0 @@
-{
-  "label": "Day 2 - Integrasi Frontend React",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Panduan langkah-demi-langkah membangun frontend antarmuka React modern (UI-First) dan mengintegrasikan smart contract VendingMachine.sol di jaringan Arbitrum Sepolia."
-  }
-}
